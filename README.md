@@ -119,7 +119,7 @@ public class ARBootstrap : MonoBehaviour
 
         // VPS — empty locationIds = auto-search entire OpenARMaps network
         ARLibController.SetupVPS(new VPSSettings {
-            serverUrl    = "https://api.openarmaps.org/api/v1",
+            serverUrl    = "https://was-vps.web-ar.xyz/vps/api/v3",
             locationsIds = new string[] { }
         });
         ARLibController.StartVPS();
@@ -247,7 +247,7 @@ ARLibController.RemoveAllTrackingImages();
 
 ```csharp
 ARLibController.SetupVPS(new VPSSettings {
-    serverUrl    = "https://api.openarmaps.org/api/v1",
+    serverUrl    = "https://was-vps.web-ar.xyz/vps/api/v3",
     locationsIds = new string[] { }   // empty = auto-search
 });
 ARLibController.StartVPS();
