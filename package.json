@@ -1,0 +1,33 @@
+{
+  "name": "com.arweb.arclip",
+  "version": "1.1.0",
+  "displayName": "AR Clip SDK",
+  "description": "Compiled AR Clip with WebGL support",
+  "unity": "2020.3",
+  "author": {
+    "name": "Web-AR.Studio",
+    "email": "cto@web-ar.studio"
+  },
+  "dependencies": {
+    "com.unity.ai.navigation": "2.0.10"
+ },
+  "samples": [
+    {
+      "displayName": "WebGLTemplates",
+      "description": "ARClip App, 8th Wall, and WebXR WebGL templates for browser builds. Move folder `WebGLTemplates` into `Assets` folder after Import and Reload editor",
+      "path": "Samples~/WebGLTemplates"
+    },
+    {
+      "displayName": "TransparentBackground",
+      "description": "Transparent background WebGL plugin",
+      "path": "Samples~/TransparentBackground"
+    },
+    {
+      "displayName": "Demo",
+      "description": "Demonstration scene and scripts for AR Clip SDK",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
+
+
